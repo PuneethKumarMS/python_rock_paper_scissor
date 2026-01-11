@@ -6,7 +6,7 @@ running = True
 while running:
 
     player = None
-    computer = random.choice(options)
+    computer = random.choice(options) # to show random options
 
     while player not in options:
         player = input("Enter a choice (rock, paper, scissors): ")
